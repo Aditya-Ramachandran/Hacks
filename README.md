@@ -16,3 +16,7 @@ _This Repository is created for the online submission of project in the HackQuan
 
 1. Sublime Text 3
 2. Atom 
+
+**Other Resources:-**
+
+1. Google Cloud Services

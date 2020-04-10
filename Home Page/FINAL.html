@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Website</title>
+</head>
+<body style="background-color:#E6F9FF;">
+    <div class="dropdown">
+      <button class="dropbtn"><a href= "frontpg.html"><img src="menu.png" height="40" width="40"></a></button>
+      <div class="dropdown-content">
+      <a href="#">Home</a>
+      <a href="#">Shop by category</a>
+      <a href="#">Your order</a>
+      <a href="#">Buy again</a>
+      <a href="#">Your notifications</a>
+      <a href="#">Settings</a>
+      <a href="#">Customer service</a>
+      </div>
+    </div>
+    <div class="logo">
+        <img class ="logop" src="logo.png"height ="50" width="50">
+    </div>
+    <div class="topnav">
+        <div class="left">
+        <a class="active" href="#home">Home</a>
+    </div>
+    <div class="right">
+        <img  class ="cartp" src="cart.png" width="40" height="40">
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+        <form>
+            <input type="text" name="search" placeholder="Search..">
+         </form>
+        </div>
+       <div style="padding-left:16px">
+        
+      </div>
+      <br>
+      <div class="slideshow-container">
+    
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="grain.png" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="daily.PnG" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="GJHK.JPG" style="width:100%">
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="vege.png" style="width:100%">
+            <div class="text"></div>
+          </div>
+    
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span>
+        </div>
+    <div class="lowerorder">
+        <p ><H1><B>COVID -19</B></H1></p>
+
+               <a  href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"  >  <img class="covid" src="covid1.png" width="50%" height="50%"></a>
+      
+        <a href="https://www.mygov.in/covid-19/?cbps=1"><img src="cov1.png" width ="30% " height="20%"></a>
+      
+        <a href="#"><img src="work.jpg" width="40%" height="40%"></a>
+        <a href="#"><img src="test.jpg" width="40%" height="40%"></a>
+        </div>  
+    </div>
+    <h1><b>GROCERY ESSENTIALS</b></h1>
+    <a href ="#"><IMG SRC="granny.jpg" width="30%" height="30%"></a>
+   <a href="#"><img src="flour.jpg" width="35%" height="65%"></a>
+    <a href="#"><img src="frutty.jpg" width="30%" height="30%"></a>
+    <h1><b>HOME ESSENTIALS AND PERSONAL CARE</b></h1>
+    <a href="#"><img src="staci1.png" width="30%" height="20%"></a>
+    <a href ="#"><IMG SRC="SKIN.jpg" width="30%" height="30%"></a>
+     <a href="#"><img src="LAUND.png" width="35%" height="65%"></a>
+    <h1><b>HEALTH AND FITNESS</b></h1>
+    <a href ="#"><IMG SRC="hell.jpeg" width="30%" height="30%"></a>
+    <a href="#"><img src="suppl.jpg" width="30%" height="30%"></a>
+    <a href="#"><img src="protien.png" width="30%" height="90%"></a>
+    
+    <h1><b>FOR YOUR LITTLE ONES</b></h1>
+    
+    <a href ="#"><IMG SRC="BATH.jpg" width="30%" height="30%"></a>
+    <a href="#"><img src="BABY.jpg" width="20%" height="5%"></a>
+   <a href="#"><img src="DOG.JPG" width="45%" height="85%"></a>
+    
+        <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000);
+        }
+        </script>
+    
+</body>
+</html>
